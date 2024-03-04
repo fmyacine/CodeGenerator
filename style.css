@@ -1,0 +1,55 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    color:white;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./liquid-purple-art-painting-abstract-colorful-background-with-color-splash-paints-modern-art.jpg);
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 97vh;
+    width: 97vw;
+}
+
+.border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 3rem;
+    border-radius: 50px;
+    background-color: #333;
+}
+
+h1{
+    margin-bottom: 3rem;
+}
+
+.flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5rem;
+}
+
+.count{
+    margin: 1rem 0;
+}
+
+.res{
+    color: #000;
+}
